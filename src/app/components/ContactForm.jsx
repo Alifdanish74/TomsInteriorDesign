@@ -11,22 +11,22 @@ const ContactForm = () => {
 
   const onSubmit = async (data) => {
     setStatus("sending...");
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
+    // try {
+    //   const response = await fetch("/api/contact", {
+    //     method: "POST",
+    //     headers: { "Content-Type": "application/json" },
+    //     body: JSON.stringify(data),
+    //   });
 
-      if (response.ok) {
-        setStatus("Message sent successfully!");
-        reset();
-      } else {
-        setStatus("Failed to send message. Try again.");
-      }
-    } catch (error) {
-      setStatus("An error occurred. Try again.");
-    }
+    //   if (response.ok) {
+    //     setStatus("Message sent successfully!");
+    //     reset();
+    //   } else {
+    //     setStatus("Failed to send message. Try again.");
+    //   }
+    // } catch (error) {
+    //   setStatus("An error occurred. Try again.");
+    // }
   };
 
   return (
