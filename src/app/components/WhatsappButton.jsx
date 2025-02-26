@@ -6,7 +6,7 @@ const WhatsAppButton = () => {
 
   return (
     <a
-      href={"http://wasap.my/601127877926/Hi! Nak tempah kad jemputan digital."}
+      href={"http://wasap.my/60194113867/Hi! Toms Interior Design."}
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-float"
