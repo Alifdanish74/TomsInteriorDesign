@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Interior Design",
-  description: "Luxury interior designs for modern spaces",
+  title: "Toms Interior Studio",
+  description: "We are Interior Design and Build Company",
 };
 
 export default function RootLayout({ children }) {
