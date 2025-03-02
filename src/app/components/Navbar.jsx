@@ -28,8 +28,8 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex justify-center items-center text-lg md:text-2xl font-bold">
-          <img src="/logo.ico" alt="Logo" className="w-6 h-6 mr-2 " />|
-          Tom's Interior Studio
+          <img src="/logo.jpg" alt="Logo" className="w-12 h-12 mr-2 " />|
+          Désir Design Studio
         </Link>
 
         {/* Desktop Navigation */}

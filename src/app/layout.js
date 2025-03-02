@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Toms Interior Studio",
+  title: "Désir Design Studio",
   description: "We are Interior Design and Build Company",
 };
 
