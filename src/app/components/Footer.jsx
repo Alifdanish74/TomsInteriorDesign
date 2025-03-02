@@ -23,7 +23,7 @@ function Footer() {
                   alt="JemputKahwin Logo"
                 /> */}
                 <span className="self-center text-2xl font-semibold whitespace-nowrap">
-                  Désir Design Studio
+                  TOM'S INTERIOR STUDIO
                 </span>
               </a>
             </div>
@@ -39,13 +39,13 @@ function Footer() {
                   </li>
                   <li className="flex items-center gap-2 text-sm">
                     <MdOutlineMail />
-                    <span>desir.designbuild@gmail.com</span>
+                    <span>tomsinteriorstudio@gmail.com</span>
                   </li>
                   <li className="flex items-center gap-2 text-sm">
                     <MdOutlineMail />
                     <a
                       href={
-                        "http://wasap.my/60123392783/Hi! Désir Design Studio."
+                        "http://wasap.my/60194113867/Hi! Toms Interior Studio."
                       }
                       target="_blank"
                       rel="noopener noreferrer"
@@ -90,7 +90,7 @@ function Footer() {
                 <ul className="text-white ">
                   <li>
                     <p>
-                      Désir Design Studio was founded in the year 2015 to
+                      Toms Interior Studio was founded in the year 2015 to
                       provide interior design services. Soon after, we quickly
                       noticed the growing need in interior design field along
                       with great quality and efficiency.
@@ -104,7 +104,7 @@ function Footer() {
             <span className="text-sm text-white sm:text-center ">
               Copyright © {YEAR}
               <a href="https://www.google.com" className="hover:underline">
-                {"\t"}Désir Design Studio
+                {"\t"}Tom's Interior Studio & Consultation
               </a>
             </span>
           </div>
@@ -112,10 +112,10 @@ function Footer() {
             <span className="text-sm text-white sm:text-center ">
               All rights reserved.
               <a
-                href="https://www.google.com"
+                href="https://www.jemputkahwin.com.my"
                 className="hover:underline text-blue-600"
               >
-                {"\t"}Désir Design Studio (IP0508419-X)
+                {"\t"}TOMS INTERIOR STUDIO (IP0508419-X)
               </a>
             </span>
           </div>

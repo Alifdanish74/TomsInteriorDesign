@@ -8,9 +8,9 @@ import React from "react";
 import { ImagesSlider } from "../../components/ui/images-slider";
 
 const images = [
-  "https://scontent.fkul3-4.fna.fbcdn.net/v/t51.75761-15/470307316_18050017808494799_2028826133029238536_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wzG8qG2Tz8AQ7kNvgH8f1ig&_nc_oc=Adg1lbnKM_mLOlQTkZDgSBzdb2MMOQJpaNeTv4jO1hlL3KDzHdAAoBvyINuK2gCDuXh-h-SVbNJjbpBxJwBPYean&_nc_zt=23&_nc_ht=scontent.fkul3-4.fna&_nc_gid=AlfrcrOyuZ9EQ_E0twESkqc&oh=00_AYDBhjHH7O4oACP9ZlxzW7ail2lipup2MN4-Lah069io_w&oe=67C88707",
-  "https://scontent.fkul3-3.fna.fbcdn.net/v/t39.30808-6/386337763_360929846268756_7183735228321829763_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=yupW46rsEUMQ7kNvgGKfot_&_nc_oc=AdjTlkw-m60FRvrk8pnr7WsZ08jX_pIEEd_PnyKVze9g9JgXbsJuJj4Ago2d3G1pLx7ETcxnnxRlB3tM7KvCOAfq&_nc_zt=23&_nc_ht=scontent.fkul3-3.fna&_nc_gid=A6e-NC4de88fgJxiz0NzayZ&oh=00_AYDXkeed4wXR_M3cw8diQ_-2LmWx1xH9SAeRPCt2vvQYng&oe=67C88BA8",
-  "https://scontent.fkul3-3.fna.fbcdn.net/v/t39.30808-6/480447100_962884575940798_6187364374756045761_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xC_FpC3EIc4Q7kNvgGOG-Ao&_nc_oc=AdiFq0LR1BQk8NNHsLkL8k47SJxL0IrZeq2JG9PfuuWYCW5la0pqjcLGN2TdON_wyqWWel7P5MnTif8V8RREQcjU&_nc_zt=23&_nc_ht=scontent.fkul3-3.fna&_nc_gid=AhWO98clAHbg9QMMtzYsLra&oh=00_AYBP_7K1J0hrhASeNkQn_AddgvyokSFtdO8bLliniLy2rA&oe=67C8AFEE",
+  "https://scontent.fkul4-5.fna.fbcdn.net/v/t39.30808-6/405265742_858395916291299_2415487472327766085_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=nToHTe_9zVIQ7kNvgHA9sWo&_nc_oc=Adi9AYd2qbJrVXFvDu8Ha0AGdN3lv2FAvniTFiV7_CVdaS2qbhyWjVuCJJ7iNFj_eVgRyfV2oI2U922wlIIjfgxu&_nc_zt=23&_nc_ht=scontent.fkul4-5.fna&_nc_gid=A0OtNisi2XC4SbHRZ9uZmOh&oh=00_AYBI4tpd6KKyd7zoG_od8D48wDWmt3TBAVEzfdGZBz-6zw&oe=67C353AD",
+  "https://scontent.fkul4-4.fna.fbcdn.net/v/t39.30808-6/405297109_860083052789252_6746027709672047064_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=JTHCSlXuuFwQ7kNvgEQVvZH&_nc_oc=AdiHw3K6Nm3bCvIqhF2Zne5uQu-S0LUTshYH_XWDvRMeUIJHgOHmoVuM3RA9K6yxUzmDEss9H8D_tLr7JhU9Wq49&_nc_zt=23&_nc_ht=scontent.fkul4-4.fna&_nc_gid=AMPUghrJAJk4aydv2yCkdc3&oh=00_AYAVRg5z26cjgMOhUmXpdmI9n0B3WaMTFobH-Ji5OtfGLw&oe=67C36B34",
+  "https://scontent.fkul4-5.fna.fbcdn.net/v/t39.30808-6/470183663_1137661515031403_2472304088140804177_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=0Qg0XoxCYe4Q7kNvgG8OcZ1&_nc_oc=AdjElHZF70U7KqJp9zZro4lk655GTiw0X_zbFlMOOPUh8GrhXoFigZtBHYU7VkVrkVAfaK3qMT1y0C8F-ZjJ57Ei&_nc_zt=23&_nc_ht=scontent.fkul4-5.fna&_nc_gid=AODfzAtd7p9DqAQAiblrlE3&oh=00_AYA-xvQ1zwQv4nXNK_BhJILTo03X-IIUpGZJ_j20soLogg&oe=67C365C1",
 ];
 
 const Hero = () => {
@@ -26,7 +26,7 @@ const Hero = () => {
     <ImagesSlider className="h-screen " images={images}>
       <div className="hidden md:flex absolute top-20 z-100 right-20">
         <CircularText
-          text=" → Designing → Your → Desires"
+          text=" → TOMS = TOP + TRUSTED"
           onHover="speedUp"
           spinDuration={20}
           className="custom-class"
@@ -42,7 +42,7 @@ const Hero = () => {
           y: 0,
         }}
         transition={{
-          duration: 1.2,
+          duration: 0.6,
         }}
         className="z-50 flex flex-col justify-left items-center"
       >
@@ -54,7 +54,7 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row items-center justify-center px-6 md:px-28 text-white">
             {/* Left Side (Text) */}
             <div className="text-center md:text-left max-w-2xl">
-              <p className="my-5 md:hidden">→Designing Your Desires </p>
+              <p className="my-5 md:hidden">→ TOMS = TOP + TRUSTED </p>
 
               <motion.h1 className="text-4xl md:text-6xl lg:text-7xl text-center md:text-left font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
                 Designing your dream spaces, <br /> one room at a time
@@ -71,12 +71,40 @@ const Hero = () => {
           </div>
         </Parallax>
       </motion.div>
-
-      
     </ImagesSlider>
+    // <div
+    //   className="relative pb-10 md:px-20 h-screen flex items-center justify-left bg-cover bg-center"
+    //   style={{ backgroundImage: "url('/hero-bg.jpg')" }}
+    // >
+    //   <div className="hidden md:flex absolute top-20 right-20">
+    //     <CircularText
+    //       text=" → TOMS = TOP + TRUSTED"
+    //       onHover="speedUp"
+    //       spinDuration={20}
+    //       className="custom-class"
+    //     />
+    //   </div>
+    //   <Parallax speed={-10}>
+    //     <div className="flex flex-col md:flex-row items-center justify-center px-6 md:px-28 text-white">
+    //       {/* Left Side (Text) */}
+    //       <div className="text-center md:text-left max-w-2xl">
+    //         <p className="my-5 md:hidden">→ TOMS = TOP + TRUSTED </p>
 
-    
-    
+    //         <h1 className="text-4xl md:text-6xl lg:text-7xl text-center md:text-left font-bold mb-4">
+    //           Designing your dream spaces, <br /> one room at a time
+    //         </h1>
+    //         <p className="text-lg md:text-xl mb-6">
+    //           We specializing in transforming dreams into reality <br /> with
+    //           innovative customization
+    //         </p>
+    //         <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
+    //           <Button text="Contact Us →" redirect={"/contact"}/>
+    //           <Button text="View Project →" redirect={"/projects"} />
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </Parallax>
+    // </div>
   );
 };
 
